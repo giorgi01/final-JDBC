@@ -1,0 +1,5 @@
+CREATE TABLE rivers (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(70) NOT NULL,
+    length INT DEFAULT 0
+);
